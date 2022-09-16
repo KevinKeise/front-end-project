@@ -1,0 +1,20 @@
+:root{
+  --width-aside-left:80px;
+  --width-aside-right:320px;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  background-color: rgb(247, 247, 247);
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
