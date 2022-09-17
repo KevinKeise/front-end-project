@@ -1,8 +1,13 @@
+import ProductCard from "./ProductCard";
+import "./ProdList.css";
 
 const ProdList = () => {
     return(
-        <div>
-            <h1>Lista Produtos</h1>
+        <div className="container-prod-list">
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
         </div>
     );
 }

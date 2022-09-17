@@ -17,13 +17,13 @@ const OrderCurrentCard = () => {
                         </div>
                         <div className="container-select-qtd-orders">
                             <div>
-                                <button type="button" > - </button>
+                                <button type="button" className="button-select-qdt-order"> - </button>
                             </div>
                             <div className="container-qtd-product-order">
                                 <span>2</span>
                             </div>
                             <div>
-                                <button type="button" > - </button>
+                                <button type="button" className="button-select-qdt-order"> - </button>
                             </div>
                         </div>
                     </div>
