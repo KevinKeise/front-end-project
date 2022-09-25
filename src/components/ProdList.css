@@ -1,5 +1,9 @@
 .container-prod-list{
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.container-products{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

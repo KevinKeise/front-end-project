@@ -13,7 +13,15 @@
 }
 
 .container-type-food-list {
-    margin-top: 40px;
+    margin-top: 30px;
+}
+
+.container-type-food-list button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+    cursor: pointer;
+    
 }
 
 .container-button-type-list-content{
@@ -26,4 +34,9 @@
 
 .container-text-button{
     margin-left: 10px;
+    
+}
+
+.container-text-button span{
+    font-weight: bold;
 }

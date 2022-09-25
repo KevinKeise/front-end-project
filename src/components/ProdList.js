@@ -1,18 +1,24 @@
 import ProductCard from "./ProductCard";
 import "./ProdList.css";
-import {NavLink} from "react-router-dom"
+import TypeFoodList from "./TypeFoodList";
+
 
 const ProdList = () => {
     return(
         <div className="container-prod-list">
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
+            <div className="container-list-opt-types">
+                <TypeFoodList/>
+            </div>
+            <div className="container-products">
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+            </div>
         </div>
     );
 }

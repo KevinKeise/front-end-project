@@ -7,7 +7,6 @@ const Initial = () => {
     return(
         <div className="container-initial">
             <Header/>
-            <TypeFoodList/>
             <ProdList/>
         </div>
     );
