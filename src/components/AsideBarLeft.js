@@ -6,7 +6,7 @@ const AsideBarLeft = () => {
     return (
         <div className="container-aside-left-bar">
             <div className="container-opt-aside-bar">
-                <div>
+                <div className="container-logo-opts">
                     <div className="container-logo">
                         <NavLink to="/"><img src={logo} className="img-logo"/></NavLink>
                     </div>
@@ -34,7 +34,7 @@ const AsideBarLeft = () => {
                 <div className="container-down-aside-bar">
                     <ul className="list-aside-left">
                         <li>
-                            <NavLink to="/nji" className={({ isActive }) => isActive ? "style-link" : "none"}>
+                            <NavLink to="user/config" className={({ isActive }) => isActive ? "style-link" : "none"}>
                                 <span className="material-symbols-outlined">settings</span>
                             </NavLink>
                         </li>

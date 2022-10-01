@@ -6,7 +6,6 @@ import TypeFoodList from "./TypeFoodList";
 const Initial = () => {
     return(
         <div className="container-initial">
-            <Header/>
             <ProdList/>
         </div>
     );

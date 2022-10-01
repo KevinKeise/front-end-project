@@ -66,4 +66,5 @@
     background-color: rgb(223, 59, 0);
     border: 1px solid rgb(194, 194, 194);
     border-radius: 3px;
+    cursor: pointer;
 }
