@@ -1,0 +1,5 @@
+.container-paymentp{
+    width: calc(100% - calc(var(--width-aside-left) + var(--width-aside-right)) - 40px);
+    margin-left: calc(var(--width-aside-left) + 20px);
+    height: 100%;
+}
