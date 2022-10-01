@@ -24,3 +24,9 @@
     flex-direction: column;
 
 }
+
+@media screen and (max-width: 1000px) {
+    .container-aside-right-bar{
+        width: var(--mid-width-aside-right);
+    }
+}

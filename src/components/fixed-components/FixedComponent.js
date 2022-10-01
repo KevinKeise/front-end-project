@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import AsideBarLeft from "./AsideBarLeft";
 import AsideBarRight from "./AsideBarRight";
-import Header from "./Header";
+import Header from "../header/Header";
 
 
 const FixedComponent = () => {

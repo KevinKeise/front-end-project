@@ -1,7 +1,7 @@
-import Header from "./Header";
+
 import "./Initial.css";
-import ProdList from "./ProdList";
-import TypeFoodList from "./TypeFoodList";
+import ProdList from "../prod-list/ProdList";
+import TypeFoodList from "../type-food-list/TypeFoodList";
 
 const Initial = () => {
     return(

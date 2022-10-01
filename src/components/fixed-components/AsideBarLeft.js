@@ -1,6 +1,6 @@
 import "./AsideBarLeft.css"
 import {NavLink} from "react-router-dom"
-import logo from "../img/icons8-logo-100.png"
+import logo from "../../img/icons8-logo-100.png"
 
 const AsideBarLeft = () => {
     return (
@@ -17,14 +17,10 @@ const AsideBarLeft = () => {
                                     <span className="material-symbols-outlined">home</span>
                                 </NavLink>
                             </li>
+
                             <li>
-                                <NavLink to="/nji" className={({ isActive }) => isActive ? "style-link" : "none"}>
-                                <span className="material-symbols-outlined">dataset</span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/nj" className={({ isActive }) => isActive ? "style-link" : "none"}>
-                                    <span className="material-symbols-outlined">local_mall</span>
+                                <NavLink to="profiles" className={({ isActive }) => isActive ? "style-link" : "none"}>
+                                    <span class="material-symbols-outlined">groups</span>
                                 </NavLink>
                             </li>
                         </ul>
@@ -38,8 +34,9 @@ const AsideBarLeft = () => {
                                 <span className="material-symbols-outlined">settings</span>
                             </NavLink>
                         </li>
+                            
                         <li>
-                            <NavLink to="/nji" className={({ isActive }) => isActive ? "style-link" : "none"}>
+                            <NavLink to="/exit" className={({ isActive }) => isActive ? "style-link" : "none"}>
                                 <span className="material-symbols-outlined">logout</span>
                             </NavLink>
                         </li>

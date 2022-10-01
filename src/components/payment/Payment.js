@@ -1,4 +1,6 @@
+
 import "./Payment.css";
+import {NavLink} from "react-router-dom"
 
 const Payment = () => {
     return(
@@ -38,7 +40,11 @@ const Payment = () => {
                 </div>
             </div>
             <div className="container-button-payment-side">
-                <button type="buttton" className="button-payment-side">Continuar para pagamento</button>
+                
+                    <NavLink to="payment" className="button-payment-side">
+                        Continuar para pagamento
+                    </NavLink>
+                
             </div>
         </div>
     );

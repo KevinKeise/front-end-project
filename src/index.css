@@ -1,13 +1,14 @@
 :root{
   --width-aside-left:60px;
   --width-aside-right:320px;
+  --mid-width-aside-right: 280px;
 }
 *{
   box-sizing: border-box;
 }
 body{
   margin: 0px;
-  background-color: rgb(238, 238, 238);
+  background-color: #eeeeee;
 
 }
 

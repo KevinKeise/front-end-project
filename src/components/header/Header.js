@@ -1,5 +1,5 @@
-import SearchProduct from "./SearchProduct";
-import Welcome from "./Welcome";
+import SearchProduct from "../search-product/SearchProduct";
+import Welcome from "../welcome/Welcome";
 import "./Header.css";
 
 const Header = () => {

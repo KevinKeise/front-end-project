@@ -1,7 +1,7 @@
 import "./AsideBarRight.css"
-import HeaderCart from "./HeaderCart";
-import ListOrder from "./ListOrder";
-import Payment from "./Payment";
+import HeaderCart from "../header-cart/HeaderCart";
+import ListOrder from "../list-orders/ListOrder";
+import Payment from "../payment/Payment";
 
 const AsideBarRight = () => {
     return(

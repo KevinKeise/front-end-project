@@ -1,6 +1,6 @@
-import ProductCard from "./ProductCard";
+import ProductCard from "../product-card/ProductCard";
 import "./ProdList.css";
-import TypeFoodList from "./TypeFoodList";
+import TypeFoodList from "../type-food-list/TypeFoodList";
 
 
 const ProdList = () => {

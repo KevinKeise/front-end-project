@@ -1,4 +1,4 @@
-import OrderCurrentCard from "./OrderCurrentCard";
+import OrderCurrentCard from "../order-current-card/OrderCurrentCard";
 import "./ListOrder.css";
 
 const ListOrder = () => {
